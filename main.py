@@ -20,7 +20,7 @@ def guess_location(description, day):
 
 
 def debs_replacer(session_leader):
-    return session_leader.replace('Debs', 'Deborah')
+    return session_leader.replace('Debs', 'Debby')
 
 
 with open('planner.csv', newline='') as csvfile:
